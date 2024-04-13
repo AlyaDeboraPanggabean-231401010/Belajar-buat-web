@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etheralya</title>
+
+    <!-- My Own Styles -->
+    <link rel="stylesheet" href="style.css/app.css"/>
+    
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+      <div class="jumbotron">
+      <h1>Etheralya</h1>
+      <p>
+        Suka Gabut? Lupa sama acara penting? Eitss.. Santaii..
+        Etheralya ada untuk bantuin kamu, biar gak 
+        kehilangan momen penting dan ngisi kegabutan kamu.
+      </p>
+    </div>
+
+      <nav> <!--ini untuk bungkus bagian list guna buat aksesbilitas web kita, jadi kalau gak ada ini 
+      browser gak tau kalo ini navigation list gtu-->
+        <ul> <!--ini untuk urutan tanpa urutan jelas pakai bullet,
+        kalau mau pake berurutan kek Romawi I, trs 1, atau A, atau a bisa pkai <ol>
+        contoh <ol type="I"></ol>-->
+          <li>
+            <a href="#Beranda">Beranda</a> <!--navigation list jadi link-->
+          </li>
+          <li>
+            <a href="#Apa aja sih?">Apa aja sih?</a>
+          </li>
+          <li>
+            <a href="#Tentang Alya">Tentang Alya</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+    <div id="content">
+        <article id="Beranda" class="card"> <!--article itu untuk independent content, artinya gak terkait sama  konten lain-->
+          <h2>Etheralya</h2> <!--tadi kan bentuknya gini <h2 id="sejarah">Sejarah</h2> untuk target navigasi,
+          nah id itu pindah ke <article> karna artikel lebih mempresentasikan seluruh konten-->
+          <img src="etheralya assets/image etheralya/logo etheralya.png" alt="Logo Etheralya" class="featured-image"/>   <!--ini buat nampilin gambar, gak perlu pakai tag buka tutup kek elemen lain
+          penggunaan "alt" ini berguna pas gambar gak berhasil dimuat-->
+          <p>
+            Banyak dari kita yang suka banget nyia-nyiain waktu buat rebahan doang.
+            Atau scroll sosmed doang. Padahal banyak kegiatan bermanfaat yang bisa kita 
+            lakuin. Di saat gabut, kita juga sering banget lupa sama acara - acara penting,
+            jadinya ya.. kehilangan momen penting deh..
+            Etheralya ada untuk bantu kamu lebih produktif di kala gabut, dan ngingetin
+            kamu biar gak ketinggalan acara atau momen penting kamu.
+          </p>
+        </article>
+
+        <article id="Apa aja sih?" class="card">
+            <h2>Apa aja sih?</h2>
+            <p>
+              Ada apa aja, sih , di Etheralya?
+              Tentunya ada beragam fitur keren yang bisa bikin kamu makin 
+              produktif dan semangat lagi.
+            </p>
+  
+          <section> <!--elemen yang punya kesamaan konten-->
+            <h3>Rekomendasi Kegiatan Harian</h3>
+            <img src="etheralya assets/image etheralya/gabut.jpg" alt="Gabut" class="featured-image"/>
+            <p>
+                Gabut gini enaknya ngapain, ya? 
+                Bingung mau ngapain, padahal seharian cuma rebahan dan main hp doang?
+                Etheralya punya beragam rekomendasi kegiatan harian yang bisa 
+                kamu coba selama gabut. Kegiatannya gak monoton kok, ada olahraga, 
+                rekomendasi buku bacaan, nanem taneman, dan lain-lain. 
+                Kuy.. buruan cek rekomendasi kegiatan harian kamu.
+            </p>
+          </section>
+  
+          <section>
+            <h3>Note Acara</h3>
+            <img src="etheralya assets/image etheralya/cek acara.jpg" alt="cek kalender" class="featured-image"/>
+            <p>
+                Kamu pelupa? Dan takut acara serta momen penting kamu hilang?
+                Jangan khawatir, kamu bisa banget note acara penting kamu di sini.
+                Tinggal cari tanggal dan atur waktunya aja, kok. Dengan begitu,
+                gak ada lagi deh acara lupa-lupaan.
+            </p>
+          </section>
+
+        <section>
+            <h3>Diary Kamu</h3>
+            <img src="etheralya assets/image etheralya/cerita yuk.jpg" alt="diary kamu" class="featured-image"/>
+            <p>
+                Udah produktif dan nikmati momen, tapi bingung mau cerita kemana?
+                Kamu bisa ceritain pengalaman dan momen kamu sebebasnya di sini.
+                Mau itu momen seru, lucu, sedih, horror, apa aja deh..
+                Kamu juga bisa masukkin foto, loh. Uuuu.. Kamu punya diary sendiri, nih.
+            </p>
+          </section>
+
+        <section>
+            <h3>Checklist Kegiatan</h3>
+            <img src="etheralya assets/image etheralya/checklist.jpg" alt="checklist" class="featured-image"/>
+            <p>
+                Udah lakuin kegiatan produktif, belum? Kalau udah jangan lupa
+                checklist, ya. Supaya kamu bisa lanjut kegiatan produktif lainnya
+                dan makin semangat tentunya..
+            </p>
+          </section>
+        </article>
+
+        <article id="Tentang Alya" class="card"> 
+            <h2>Tentang Alya</h2>
+            <img src="etheralya assets/image etheralya/Alya.jpg" alt="Alya" class="featured-image"/>   
+            <p>
+              Hai... 
+              Kenalin, aku Alya Debora Panggabean. Biasa dipanggil Alya
+              Aku merupakan salah satu mahasiswa prodi Ilmu Komputer di 
+              Universitas Sumatera Utara atau biasa dikenal USU.
+              Kali ini aku buat web sederhana untuk tugas akhir 
+              pembelajaran dasar pemrograman web Dicoding. Jangan lupa cek 
+              sosmed ku di info kontak yang tertera, ya.
+              Salam kenal semuanya..
+            </p>
+          </article>
+
+        </div>
+        
+
+      <aside> <!-- elemen ini berisi ingpo yang berhubungan sama keseluruhan halaman-->
+        <article class = "profile card">
+          <header>
+            <h2>Info Kontak</h2>
+            <figure>
+              <img src="etheralya assets/image etheralya/header 2 etheralya.jpg">
+            </figure>
+          </header>
+
+          <section>
+            <table>
+                <tr>
+                    <th>Instagram</th>
+                    <td>@alyapgbn_</td>
+                  </tr>
+                  <tr>
+                    <th>Facebook</th>
+                    <td>Alya Debora</td>
+                  </tr>
+                  <tr>
+                    <th>Linkedln</th>
+                    <td>Alya Debora Panggabean</td>
+                  </tr>
+                  <tr>
+                    <th>Youtube</th>
+                    <td>Alya Debora Panggabean</td>
+                  </tr>
+                  <tr>
+                    <th>Nomor Handphone</th>
+                    <td>+62 852744</td>
+                  </tr>
+            </table>
+          </section>
+        </article>
+      </aside>
+    </main>
+
+      <footer> <!--catatan kaki biasanya nampung link-->
+        <p>Belajar Dasar Pemrograman Web, Dicoding Academy</p>
+      </footer>
+    </body>
+</html>
